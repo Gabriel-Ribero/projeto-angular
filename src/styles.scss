@@ -1,0 +1,13 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+:root {
+    --primary-color: #417ac0;
+    --error-primary: #ac2828;
+    --gray-color: #747474;
+}
+
+.c-primary { background-color: var(--primary-color );}
+.c-error { background-color: var(--error-primary );}
+.c-gray { background-color: var(--gray-color );}
