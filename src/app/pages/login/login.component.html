@@ -1,0 +1,14 @@
+<div class="area-login-background"></div>
+
+<div class="area-form">
+    <form>
+        <h1 class="titulo">CRUD MATÉRIAS</h1>
+        <h2 class="subtitulo">Melhor site de controle de notas</h2>
+
+        <input type="text" [(ngModel)]="userName"  [ngModelOptions]="{standalone: true}" placeholder="Digite seu nome..." class="input-form">
+        <app-button textButton="Acessar" size="100" (click)="login()"></app-button>
+    </form>
+    <footer>
+        <p>&copy; 2024 | Desenvolvido por Gabriel Ribeiro Morais</p>
+    </footer>
+</div>
